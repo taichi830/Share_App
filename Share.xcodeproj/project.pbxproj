@@ -131,16 +131,14 @@
 		CE271850274AB61200CD2358 /* Share */ = {
 			isa = PBXGroup;
 			children = (
-				CE271881274B572900CD2358 /* ShareDebug.entitlements */,
 				CE271851274AB61200CD2358 /* AppDelegate.swift */,
 				CE271853274AB61200CD2358 /* SceneDelegate.swift */,
-				CE271855274AB61200CD2358 /* ViewController.swift */,
-				CE271884274B943100CD2358 /* SecondViewController.swift */,
-				CE271857274AB61200CD2358 /* Main.storyboard */,
-				CE27185A274AB61500CD2358 /* Assets.xcassets */,
-				CE27185C274AB61500CD2358 /* LaunchScreen.storyboard */,
-				CE27185F274AB61500CD2358 /* Info.plist */,
+				CEE55726275694320080E1FB /* Storyboard */,
+				CEE55725275693ED0080E1FB /* ViewController */,
 				CE271886274D59A100CD2358 /* GoogleService-Info.plist */,
+				CE271881274B572900CD2358 /* ShareDebug.entitlements */,
+				CE27185A274AB61500CD2358 /* Assets.xcassets */,
+				CE27185F274AB61500CD2358 /* Info.plist */,
 			);
 			path = Share;
 			sourceTree = "<group>";
@@ -161,6 +159,24 @@
 				CE271875274AB61500CD2358 /* Info.plist */,
 			);
 			path = ShareUITests;
+			sourceTree = "<group>";
+		};
+		CEE55725275693ED0080E1FB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE271855274AB61200CD2358 /* ViewController.swift */,
+				CE271884274B943100CD2358 /* SecondViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEE55726275694320080E1FB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CE271857274AB61200CD2358 /* Main.storyboard */,
+				CE27185C274AB61500CD2358 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		FA264433A5D3BF36FB4A98B5 /* Pods */ = {
